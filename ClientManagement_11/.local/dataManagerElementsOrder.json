@@ -9,25 +9,19 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "IManage_Logout.xaml",
+      "Path": "ClientManagement_11.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "var1&Sequence_2"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
-      "Path": "ProjectManagement_02.xaml",
+      "Path": "AWC Workflow/IManage_Logout.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "err7&Sequence_15",
-        "err6&Sequence_13",
-        "err5&Sequence_11",
-        "err4&Sequence_9",
-        "err3&Sequence_7",
-        "err2&Sequence_5",
-        "err1&Sequence_2"
-      ],
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -48,9 +42,35 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "AWC Workflow/IManage_Logout.xaml",
+      "Path": "IManage_Create_Client.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "Msg1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Client_Creation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "idx&Sequence_1",
+        "num&Sequence_1",
+        "clientcreated&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/Client_Creation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "idx&Sequence_1",
+        "num&Sequence_1",
+        "clientcreated&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
