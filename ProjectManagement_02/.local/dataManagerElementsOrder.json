@@ -1,0 +1,59 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IManage_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProjectManagement_02.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "err7&Sequence_15",
+        "err6&Sequence_13",
+        "err5&Sequence_11",
+        "err4&Sequence_9",
+        "err3&Sequence_7",
+        "err2&Sequence_5",
+        "err1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/IManage_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isloggedin&Sequence_2",
+        "User&Sequence_1",
+        "Pass&Sequence_1",
+        "Homepage&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_Asset"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/IManage_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IManage_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CountryAccountManagement_03.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "error1&Sequence_2",
+        "alreadypresent&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/IManage_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isloggedin&Sequence_2",
+        "User&Sequence_1",
+        "Pass&Sequence_1",
+        "Homepage&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_Asset"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
