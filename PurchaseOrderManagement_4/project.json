@@ -1,7 +1,7 @@
 {
-  "name": "PurchaseOrderManagement_2",
+  "name": "PurchaseOrderManagement_4",
   "projectId": "26f8edbd-e94e-4918-9035-eb574326dcc3",
-  "description": "PurchaseOrderManagement_2",
+  "description": "PurchaseOrderManagement_4",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[24.3.1]",
@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.4.0.0",
-  "projectVersion": "1.0.174301545",
+  "projectVersion": "1.0.174301701",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +46,7 @@
         "editingStatus": "Publishable",
         "testCaseId": "3576b049-db12-410d-8d84-9a0689344b76",
         "testCaseType": "TestCase",
-        "fileName": "PurchaseOrderManagement_2.xaml"
+        "fileName": "PurchaseOrderManagement_4.xaml"
       }
     ],
     "saveToCloud": false
