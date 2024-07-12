@@ -1,0 +1,63 @@
+{
+  "name": "PurchaseOrderManagement_7",
+  "projectId": "26f8edbd-e94e-4918-9035-eb574326dcc3",
+  "description": "PurchaseOrderManagement_7",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ClassicActivities.BAFLayer": "[1.0.0]",
+    "UiPath.Excel.Activities": "[2.23.4]",
+    "UiPath.System.Activities.Runtime": "[24.3.1]",
+    "UiPath.Testing.Activities": "[24.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.10.1]",
+    "UiPath.UIAutomation.Activities.Runtime": "[24.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.4.0.0",
+  "projectVersion": "1.0.174465750",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3f594b00-e49a-4b3e-a5da-eaacf5b24a0b",
+        "testCaseType": "TestCase",
+        "fileName": "PurchaseOrderManagement_7.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": "CoverageMergeHelperWorkflow.xaml"
+}
