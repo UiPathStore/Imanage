@@ -1,0 +1,101 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "PurchaseOrderManagement_4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "err1&Sequence_2",
+        "var1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/IManage_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/IManage_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "isloggedin&Sequence_2",
+        "User&Sequence_1",
+        "Pass&Sequence_1",
+        "Homepage&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_Asset"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "IManage_Create_Client.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Msg1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Client_Creation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "idx&Sequence_1",
+        "num&Sequence_1",
+        "clientcreated&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BL_CreateProject 3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&Sequence_2",
+        "success&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "AWC Workflow/BL_CreateProject 3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Name&Sequence_2",
+        "success&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "PurchaseOrderManagement_5.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "err1&Sequence_2",
+        "var1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
