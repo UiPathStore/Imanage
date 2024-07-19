@@ -1,0 +1,24 @@
+
+
+variables:
+  orchestratorConnection: 'Uipath'
+  folderName: 'Variant_Matrix_Automations'
+
+parameters:
+  - name: testSet
+    displayName: Test Set Name
+    type: string
+    default: 'Imanage'
+    values:
+      - Imanage
+
+pool:
+  uipath
+
+steps:
+- task: UiPathTest@4
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: $(orchestratorConnection)
+    testSet: ${{ parameters.testSet }}
+    folderName: $(folderName)
