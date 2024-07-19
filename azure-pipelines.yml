@@ -23,4 +23,290 @@ steps:
    del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
   displayName: 'Delete output folder'
 
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ClientManagement_03/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ClientManagement_05/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ClientManagement_11/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ClientManagement_14/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ClientManagement_15/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/CountryAccountManagement_03/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/CountryAccountManagement_07/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ProjectManagement_02/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ProjectManagement_04/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ProjectManagement_11/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/ProjectManagement_14_Chrome_Browser_1/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_1/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_2/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_4/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_5/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_6/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_7/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
+
+- task: UiPathPack@4
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: '$(Build.SourcesDirectory)/PurchaseOrderManagement_9/project.json'
+    orchestratorConnection: 'Uipath'
+    outputPath: '$(Build.ArtifactStagingDirectory)/Output/'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'Uipath'
+    packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
+    folderName: 'IManage_Automations'
+- script: |
+   del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
+  displayName: 'Delete output folder'
 
