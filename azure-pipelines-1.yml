@@ -2,7 +2,7 @@
 
 variables:
   orchestratorConnection: 'Uipath'
-  folderName: 'Variant_Matrix_Automations'
+  folderName: 'Imanage_Automations'
 
 parameters:
   - name: testSet
