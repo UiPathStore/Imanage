@@ -17,7 +17,7 @@ steps:
   inputs:
     orchestratorConnection: 'Uipath'
     packagesPath: '$(Build.ArtifactStagingDirectory)/Output/'
-    folderName: 'Variant_Matrix_Automations'
+    folderName: 'IManage_Automations'
 
 - script: |
    del /S "$(Build.ArtifactStagingDirectory)\Output\*.nupkg"
